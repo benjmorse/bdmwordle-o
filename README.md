@@ -1,0 +1,2 @@
+# bdmwordle
+Six Letter Wordle
