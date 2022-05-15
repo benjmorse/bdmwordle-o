@@ -53,3 +53,22 @@ h1 {
   cursor: pointer;
   text-transform: uppercase;
 }
+
+/* Mobile Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    body {
+      width: 90%;
+    }
+    
+    .letter-box {
+      font-size:1rem;
+    }
+
+    .keyboard-button {
+      color:#f00;
+    }
+
+}
