@@ -59,16 +59,16 @@ h1 {
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
-    body {
-      width: 90%;
-    }
-    
+
     .letter-box {
+      height: 2rem;
+      width: 2rem;
       font-size:1rem;
     }
 
     .keyboard-button {
-      color:#f00;
+      font-size: .75rem;
+      margin:0 1.5px;
     }
 
 }
